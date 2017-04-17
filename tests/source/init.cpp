@@ -4,7 +4,7 @@ SCENARIO("add")
 {    
 BinarySearchTree<unsigned int> r;    
 BinarySearchTree<unsigned int>* root;    
-int rv = r.Add(10, root);        
+int rv = r.add(10, root);        
 REQUIRE( rv == 10);
 }
 SCENARIO("print") 
@@ -18,21 +18,21 @@ SCENARIO("search")
 {    
 BinarySearchTree<unsigned int> r;    
 BinarySearchTree<unsigned int>* root;    
-int rv = r.Search(12, root);        
+int rv = r.search(12, root);        
 REQUIRE( rv == 12);
 }
 SCENARIO("del") 
 {    
 BinarySearchTree<unsigned int> r;    
 BinarySearchTree<unsigned int>* root;    
-int rv = r.Search(13, root);        
+int rv = r.search(13, root);        
 REQUIRE( rv == 13);
 }
 SCENARIO("delTree") 
 {    
 BinarySearchTree<unsigned int> r;    
 BinarySearchTree<unsigned int>* root;    
-int rv = r.Search(14, root);        
+int rv = r.search(14, root);        
 REQUIRE( rv == 14);
 }
 
