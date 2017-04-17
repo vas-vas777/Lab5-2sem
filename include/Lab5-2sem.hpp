@@ -8,7 +8,7 @@ class BinarySearchTree
 
 public: 	
        BinarySearchTree *parent; 	
-       Type data;
+       type data;
        
 int add(type data, BinarySearchTree *&root)
 {
@@ -18,13 +18,15 @@ int add(type data, BinarySearchTree *&root)
        root->data = data;
        root->parent = root;
        return root->data;
+   }
        else
        if (root->data > data)
            add(data, root->left);
        else
        if (root->data < data)
        add(data, root->right);
-       else return root->data;	
+       else 
+              return root->data;	
 }
 int print(BinarySearchTree *root, int tree1)
 {
