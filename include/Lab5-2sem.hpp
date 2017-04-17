@@ -8,6 +8,8 @@ class BinarySearchTree
 
 public: 	
        BinarySearchTree *parent; 	
+       BinarySearchTree *left;
+       BinarySearchTree *right;
        type data;
        
 int add(type data, BinarySearchTree *&root)
