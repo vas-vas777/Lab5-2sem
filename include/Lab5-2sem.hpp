@@ -2,7 +2,7 @@
 #include <stdlib.h>
 using namespace std;
 
-template<class type> 
+template<typename type> 
 class BinarySearchTree
 {
 
