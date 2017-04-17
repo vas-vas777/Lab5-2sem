@@ -39,7 +39,7 @@ int search(BinarySearchTree *root, int tree2)
     if (!root) return tree2;
     
     
-    if (root->data => 0)
+    if (root->data >= 0)
     {
     root->data=1;
     }
