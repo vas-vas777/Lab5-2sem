@@ -45,13 +45,13 @@ int search(int tree2, BinarySearchTree *root)
     }
     return root->data;
 }
-int del(int tree3, BinarySeacrhTree *root)
+int del(int tree3, BinarySearchTree *root)
 {
     if (!root) return tree3;
     
     cout<<"Enter number which you want to delete: "<<endl;
     
-    if (root->data==tree3)
+    if (root->data == tree3)
     {
     cout<<"You cannot delete root"<<endl;
     return 0;
