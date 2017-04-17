@@ -6,6 +6,6 @@ using namespace std;
 
 int main()
 { 
-        BinarySearchTree<int> *root = 0; 
+        BinarySearchTree<int> *root = 0, r=0; 
         return 0;
 }
