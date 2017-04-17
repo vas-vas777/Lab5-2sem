@@ -28,13 +28,13 @@ int add(type data, BinarySearchTree *&root)
        else 
               return root->data;	
 }
-int print(BinarySearchTree *root, int tree1)
+int print(int tree1, BinarySearchTree *root)
 {
     if (!root) return tree1;
     if(root->data==10) return tree1=12;
     return tree1;
 }
-int search(BinarySearchTree *root, int tree2)
+int search(int tree2, BinarySearchTree *root)
 {
     if (!root) return tree2;
     
@@ -45,7 +45,7 @@ int search(BinarySearchTree *root, int tree2)
     }
     return root->data;
 }
-int del(BinarySearchTree *root, int tree3)
+int del(int tree3, BinarySeacrhTree *root)
 {
     if (!root) return tree3;
     
@@ -57,7 +57,7 @@ int del(BinarySearchTree *root, int tree3)
     return 0;
     }
 }
-int delTree (BinarySearchTree *root, int tree4)
+int delTree (int tree4, BinarySearchTree *root)
 {
     if (root != NULL)
     {
